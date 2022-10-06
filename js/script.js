@@ -24,7 +24,7 @@ console.log(priceSum, typeof priceSum);
     let discount = priceSum
     if (userAge < 18)
         discount = shortNumberY;
-    else if (userAge > 60)
+    else if (userAge > 65)
         discount = shortNumberE
     console.log(discount, typeof discount);       
 // OUTPUT
