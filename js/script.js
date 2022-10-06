@@ -29,9 +29,9 @@ console.log(priceSum, typeof priceSum);
     console.log(discount, typeof discount);       
 // OUTPUT
 
-document. getElementById ("kilometres").innerHTML = ` numeri di chilometri scelto: <span> ${kilometres}</span>`;
-document. getElementById ("userage").innerHTML = ` La tua età: <span> ${userAge}</span>`;
-
+document. getElementById ("kilometres").innerHTML = ` numeri di chilometri scelto: <span class="finalnumber"> ${kilometres} chilometri</span>`;
+document. getElementById ("userage").innerHTML = ` La tua età: <span class="finalnumber"> ${userAge} anni</span>`;
+document.getElementById ("result").innerHTML = `Il prezzo: € <span class="finalnumber"> ${discount}</span>`;
 
 
 
